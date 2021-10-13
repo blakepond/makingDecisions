@@ -112,38 +112,57 @@
 //     console.log(i)
 // }
 
-let score = 0
-let passingScore = 7
+// let score = 0
+// let passingScore = 7
 
-////////// PROBLEM 8 //////////
+// ////////// PROBLEM 8 //////////
 
-/*
-  Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. 
-  In each iteration of the loop, increase the score by one. 
-  If your code is successful, you will see your logged statement 7 times.
-*/
+// /*
+//   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. 
+//   In each iteration of the loop, increase the score by one. 
+//   If your code is successful, you will see your logged statement 7 times.
+// */
 
-while (score < passingScore){
-        console.log("Your score isn't high enough.")
-        score += 1
+// while (score < passingScore){
+//         console.log("Your score isn't high enough.")
+//         score += 1
     
-}
+// }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
 /*
   Create a variable called 'changeMyMind' and set it equal to true. 
-  Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
+  Check to see if changeMyMind is set to true or false, if it is true, 
+  change the status to false, if it is false, change the status to true.
 
 */
 
-//CODE HERE
+// let changeMyMind = false
+
+// if (changeMyMind === true){
+//     changeMyMind = false;
+// } else if (changeMyMind === false){
+//     changeMyMind = true;
+        
+//     }
+//     console.log (changeMyMind)
+
 
 ////////// PROBLEM 10 //////////
-// Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
+// Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. 
+//It should log true. Hint: use the not operator.
 
-//CODE HERE
+let changeMyMind = true
+
+if (changeMyMind !== true){
+    changeMyMind = true;
+} 
+        
+    
+    console.log (changeMyMind)
+
 
 
 
